@@ -15,25 +15,25 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="" href="#">
+      <a class="" href="index.html">
         <img class="logo" src="Images/logo.png" alt="">
       </a>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav mt-2 mt-lg-0">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Skills</a>
+            <a class="nav-link" href="#skill">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="https://biochris.github.io/Chris-Martins-Personal-Site/">Resume</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Me</a>
+            <a class="nav-link" href="#contact">Contact Me</a>
           </li>
         </ul>
       </div>
@@ -43,12 +43,12 @@
         <div class="header-text">
           <h1 class="">Hi, I'm Chris Martins</h1>
           <p>I am a Graphics Designer, a Ui/Ux Designer and a Frontend Web Developer. I design standard and simple websites. If you can think of it, i can design and implement it.</p>
-          <button class="btn btn-lg btn-primary" type="button" name="">HIRE ME ➯</button>
+          <a class="btn btn-lg btn-primary" type="button" href="mailto:biochris43@gmail.com">HIRE ME</a>
           <hr>
         </div>
 <!-- skills section -->
 
-      <div class="SKILLS">
+      <div class="SKILLS" id="skill">
         <div class="graphics-container">
           <h2>My Skills.</h2>
           <img class="graphics" src="Images/graphics.png" alt="">
@@ -58,8 +58,8 @@
           </div>
           <hr>
         </div>
+        <img class="ui-ux" src="Images/ui-ux.png" alt="">
         <div class="interface">
-          <img class="ui-ux" src="Images/ui-ux.png" alt="">
             <h3>User Interface And User Experience Designer</h3>
             <p>I design responsive web and mobile interface; Wireframes, High/Low Fidelity Mockups and Prototyping. I started ui/ux designs on January, 2020. </p>
         </div>
@@ -68,36 +68,41 @@
           <i class="fas fa-laptop-code fa-6x code-img"></i>
           <h3>Frontend Web Developer</h3>
           <p>I develop standard websites using; HTML, CSS and JavaScript.I started coding in 2020 after designing alot of projects and i wanted them to be live on the internet.</p>
-          <hr>
         </div>
         <hr>
       </div>
 
       <!-- projects section -->
-      <div class="Project">
+      <div class="Project" id="projects">
         <div class="">
           <h3>Completed Projects</h3>
         </div>
       </div>
 
         <!-- CONTACT US SECTION -->
-        <div class="form">
+        <div class="form" id="contact">
           <h3>Contact Me</H3>
-          <form class="message" action="index.html" method="post">
-            <label class="label" for="">Your Name</label><br>
-            <input class="input" type="text" name="" value=""><br>
-            <label class="label" for="">Phone Number</label><br>
-            <input class="input" type="text" name="" value=""><br>
-            <label class="label" for="">Your Message</label><br>
-            <textarea class="input" name="" rows="2" cols="24"></textarea><br>
-            <input class="btn btn-lg btn-primary" type="button" name="SUBMIT" value="SEND MESSAGE ➯">
+          <form class="message" action="mailto: biochris43@gmail.com" method="post" enctype="text/plain">
+            <br>
+            <!-- <label class="label" for="">Your Name</label><br> -->
+            <input class="input" placeholder="Your Name" type="text" name="Name" value="">
+            <br>
+            <!-- <label class="label" for="">Phone Number</label><br> -->
+            <input class="input" placeholder="Phone Number" type="text" name="Number" value="">
+            <br>
+            <input type="email" class="input" placeholder="Your Email" name="Email" value="">
+            <br>
+            <!-- <label class="label" for="">Your Message</label><br> -->
+            <textarea class="input" placeholder="Type Message" name="Message" rows="2" cols="24"></textarea>
+            <br>
+            <input class="btn btn-lg btn-primary" type="submit" name="" value="SEND MESSAGE ➯">
           </form>
           <br>
         </div>
         <div class="my-contact">
           <h3>My Contacts</h3>
-          <h4 class="contact-txts">+234 8184 7515 84</h4> <br>
-          <h4 class="contact-txts"><a href="mailto:biochris43@gmail.com">Mail me</a></h4>
+          <h6 class="contact-txts">+234 8184 7515 84</h6> <br>
+          <h6 class="contact-txts"><a href="mailto:biochris43@gmail.com">Mail me</a></h6>
         </div>
       <div class="footer-container">
         <i class="fab fa-facebook-square fa-2x footer-icons"></i>

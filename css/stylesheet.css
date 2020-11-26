@@ -1,5 +1,5 @@
 body {
-  background-color: skyblue;
+  background-color: white;
   line-height: 1.5;
   width: 100%;
   font-family: Montserrat-black;
@@ -26,8 +26,8 @@ body {
  h3{
    padding: 1rem 0;
    font-weight: bold;
-   /* color: white; */
- }
+margin-bottom: 0;
+}
  p {
    font-size: 1rem;
    margin: 0;
@@ -40,6 +40,9 @@ body {
    width: 50px;
    width: 50px;
    text-align: right;
+ }
+ #navbarTogglerDemo03 {
+   font-weight: bold;
  }
  .navbar-nav{
    text-align: left;
@@ -80,9 +83,15 @@ body {
   padding-top: 1rem;
   color: white;
 }
-.graphics, .ui-ux {
+.graphics {
   width: 30%;
   height: 30%;
+  text-align: center;
+}
+.ui-ux {
+  padding-top: 2rem;
+  width: 40%;
+  height: 40%;
   text-align: center;
 }
 .code-img {
@@ -90,13 +99,13 @@ body {
   color: white;
 }
 .graphics-txt, .web {
-  padding: 2rem 4rem;
+  padding: 0 4rem 2rem;
   text-align: center;
 }
 .interface {
   color: blue;
   text-align: center;
-  padding: 2rem 4rem;
+  padding: 0 4rem 2rem;
 }
 .web {
   background-color: #007bff;
@@ -116,6 +125,7 @@ body {
 .input {
   border-radius: 0.5rem;
   border-color: #007bff;
+  margin-bottom: 1rem;
 }
 .btn {
   color: white;
