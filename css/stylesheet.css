@@ -1,12 +1,12 @@
 body {
   background-color: skyblue;
-  margin: auto;
+  line-height: 1.5;
+  width: 100%;
+  font-family: Montserrat-black;
+  overflow-x: hidden;
+  align-items: center;
+  text-align: center;
 }
- img {
-
- }
- table {
- }
  hr {
    border: 1px 0 0 0;
    color: blue;
@@ -16,102 +16,125 @@ body {
  }
  h1{
   color: blue;
+  font-size: 2rem;
+  font-weight: bold;
  }
  h2{
-   color: blue;
+   color: white;
+   font-weight: bold;
  }
  h3{
-   color: blue;
+   padding: 1rem 0;
+   font-weight: bold;
+   /* color: white; */
  }
- .header {
-background-color: #286DA8;
-color: white;
-position: absolute;
-margin: 0;
-width: 100%;
+ p {
+   font-size: 1rem;
+   margin: 0;
+   font-family: Ubuntu;
  }
-.page-content {
-  width: 100%;
-  margin: 0;
-  text-align: center;
-  image-orientation: center;
-}
-.logo {
-  width: 5%;
-  height: 5%;
-  margin-right: 0%;
-  margin-left: 20%;
-  position: relative;
-  display: inline-block;
-  float: left;
-}
-.menu {
-  display: inline-block;
-  float: right;
-  margin-right: 20%;
-  margin-top: 1.5%;
-}
-.mountain {
-  width: 50%;
-  height: 15%;
+
+ /* NAV SECTION */
+
+ .logo{
+   width: 50px;
+   width: 50px;
+ }
+ .navbar-nav{
+   text-align: left;
+   color: white;
+ }
+ /* Heading Section */
+
+ .header-text {
+   text-align: center;
+   padding: 0 4rem;
+ }
+.heading-container{
+  background-color: white;
+  color: blue;
+  width: 100;
+  align-items: center;
 }
 .profilepics {
-  width: 15%;
-  height: 15%;
+  width: 40%;
+  height: 40%;
+  text-align: center;
 }
-.graphics {
-  width: 15%;
-  height: 10%;
-}
-.ui-ux {
-  width: 15%;
-  height: 15%;
-}
-.web-dev {
-  width: 15%;
-  height: 15%;
-  display: inline-block;
-  position: relative;
-  float:;
-}
-.para-graphics {
-  display: inline-block;
-  text-align: left;
-  margin: 0 0 0 2%;
-  line-height: 1.5;
-}
-.para-ui-ux {
-  display: inline-block;
-  text-align: left;
-  margin: 0 0 0 2%;
-  line-height: 1.5;
-}
-.para-web {
-  display: inline-block;
-  text-align: left;
-  margin: 0 0 0 2%;
-  line-height: 1.5;
-}
-.developer {
+
+/* SKILLS SECTION */
+.Skills {
+  background-color: ;
+  align-items: center;
+  text-align: center;
   display: inline-block;
 }
+.graphics-container {
+  background-color: #007bff;
+  padding-top: 1rem;
+  color: white;
+}
+.graphics, .ui-ux {
+  width: 30%;
+  height: 30%;
+  text-align: center;
+}
+.code-img {
+  border-radius: 200%;
+  color: white;
+}
+.graphics-txt, .web {
+  padding: 2rem 4rem;
+  text-align: center;
+}
+.interface {
+  color: blue;
+  text-align: center;
+  padding: 2rem 4rem;
+}
+.web {
+  background-color: #007bff;
+  color: white;
+  padding: 2rem 4rem;
+}
+
+/* CONTACT US SECTION */
 .form {
   text-align: center;
   width: 100%;
+  color: blue;
+}
+.label {
+  margin-top: 0.5rem;
+}
+.input {
+  border-radius: 0.5rem;
+  border-color: #007bff;
+}
+.btn {
+  color: white;
+  margin-top: 1rem;
+}
+.btn:hover {
+  background-color: blue;
+  color: white;
+}
+.my-contact {
+  width: 100%;
+  padding: 0 2rem;
+  text-align: left;
+  display: inline-block;
+}
+.contact-txts {
+  display: inline-block;
 }
 .footer-container {
-  background-color: #286DA8;
+  background-color: #007bff;
   color: white;
-  margin: 0;
+  padding: 1rem 0 1rem;
 }
-.message {
-
+.footer-icons {
+  padding: 0 1rem 0.5rem;
 }
-.social {
-  text-align: center;
-  display: inline;
-  margin: 0;
-}
-.contact-me {
-  margin: 0;
+@media all and (min-width: 572px) {
 }
