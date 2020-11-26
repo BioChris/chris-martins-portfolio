@@ -39,10 +39,16 @@ body {
  .logo{
    width: 50px;
    width: 50px;
+   text-align: right;
  }
  .navbar-nav{
    text-align: left;
    color: white;
+   margin: 0;
+   margin-right: 0;
+ }
+ .navbar-expand-lg {
+   margin-right: 0;
  }
  /* Heading Section */
 
