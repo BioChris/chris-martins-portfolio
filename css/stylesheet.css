@@ -1,5 +1,5 @@
 body {
-  background-color: skyblue;
+  background-color: white;
   line-height: 1.5;
   width: 100%;
   font-family: Montserrat-black;
@@ -26,8 +26,8 @@ body {
  h3{
    padding: 1rem 0;
    font-weight: bold;
-   /* color: white; */
- }
+   margin-bottom: 0;
+}
  p {
    font-size: 1rem;
    margin: 0;
@@ -39,10 +39,19 @@ body {
  .logo{
    width: 50px;
    width: 50px;
+   text-align: right;
+ }
+ #navbarTogglerDemo03 {
+   font-weight: bold;
  }
  .navbar-nav{
    text-align: left;
    color: white;
+   margin: 0;
+   margin-right: 0;
+ }
+ .navbar-expand-lg {
+   margin-right: 0;
  }
  /* Heading Section */
 
@@ -53,13 +62,23 @@ body {
 .heading-container{
   background-color: white;
   color: blue;
-  width: 100;
+  width: 100%;
   align-items: center;
 }
-.profilepics {
+.profilepics, .graphic-design-imgs {
   width: 40%;
   height: 40%;
   text-align: center;
+  margin: 10px;
+  border-radius: 10px;
+}
+.ui-ux-projects, .ui-ux-design-imgs {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: 10px auto;
+  display: inline-block;
+  border-radius: 10px;
 }
 
 /* SKILLS SECTION */
@@ -74,9 +93,15 @@ body {
   padding-top: 1rem;
   color: white;
 }
-.graphics, .ui-ux {
+.graphics {
   width: 30%;
   height: 30%;
+  text-align: center;
+}
+.ui-ux {
+  padding-top: 2rem;
+  width: 40%;
+  height: 40%;
   text-align: center;
 }
 .code-img {
@@ -84,13 +109,13 @@ body {
   color: white;
 }
 .graphics-txt, .web {
-  padding: 2rem 4rem;
+  padding: 0 4rem 2rem;
   text-align: center;
 }
 .interface {
   color: blue;
   text-align: center;
-  padding: 2rem 4rem;
+  padding: 0 4rem 2rem;
 }
 .web {
   background-color: #007bff;
@@ -98,7 +123,10 @@ body {
   padding: 2rem 4rem;
 }
 
-/* CONTACT US SECTION */
+//* CONTACT US SECTION */
+.ui-ux-design-img {
+  background-color: #007bff;
+}
 .form {
   text-align: center;
   width: 100%;
@@ -110,14 +138,22 @@ body {
 .input {
   border-radius: 0.5rem;
   border-color: #007bff;
+  margin-bottom: 1rem;
 }
 .btn {
   color: white;
   margin-top: 1rem;
+  border-color: white;
 }
 .btn:hover {
   background-color: blue;
   color: white;
+}
+
+.Project-web {
+  width: 70%;
+  margin: auto;
+  display: inline-block;
 }
 .my-contact {
   width: 100%;
@@ -125,8 +161,12 @@ body {
   text-align: left;
   display: inline-block;
 }
+
 .contact-txts {
   display: inline-block;
+}
+.contact-icons {
+  color: #007bff;
 }
 .footer-container {
   background-color: #007bff;
@@ -136,5 +176,12 @@ body {
 .footer-icons {
   padding: 0 1rem 0.5rem;
 }
-@media all and (min-width: 572px) {
+@media all and (max-width: 572px) {
+  .graphic-design-imgs {
+    display: block;
+    text-align: center;
+    margin: 5px auto;
+    width: 60%;
+    height: 60%;
+  }
 }
